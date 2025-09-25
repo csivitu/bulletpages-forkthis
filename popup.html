@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BulletPages</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="options">
+        <h1>BulletPages</h1>
+        <br>
+        <div class="top-button-group">
+            <select id="summary-type">
+                <option value="4-points">4 Points</option>
+                <option value="10-points">10 Points</option>
+            </select>
+            <button id="export" class="hidden">Export</button>
+        </div>
+        <br>
+        <div id="result">
+            📄 Click to Generate Summary
+        </div>
+        <br>
+        <button id="summarise">Summarise</button>
+        <a href="options.html">
+            <button id="gemini-api-key">Gemini API Key</button>
+        </a>
+        
+        <div id="api-status"></div>
+    </div>
+    
+    <script src="popup.js"></script>
+</body>
+</html>
