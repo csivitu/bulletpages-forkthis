@@ -116,7 +116,6 @@ const UIManager = {
             this.state.activeListeners.shift();
         }
         
-        chrome.storage.sync.remove("geminiApiKey");
     }
 };
 
